@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(240, 228, 207);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(9, 91, 243); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(38, 10, 163); 
+  }
+
+body {
+    max-width: 1200px;
+    box-shadow: 0px 0px 8px #666;
+    padding: 10px;
+    margin-top: 30px !important; 
+    margin: 0 auto;
+    background-color: rgb(241, 238, 238);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#title {
+    text-align: center;
+    border-bottom: 1px solid rgba(148, 136, 136, 0.623);
+    padding-bottom: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#title h1 {
+    font-size: 3em;
+}
+
+#title p {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+#text {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#text h2 {
+    font-size: 2em;
+    padding: 10px;
+}
+
+#text p {
+    font-size: 0.95em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#text h3 {
+    margin-top: 20px;
+}
+
+.text_flex {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text_flex_2 {
+    margin-top: 10px;
+}
+
+#art2 h3 {
+    margin-top: 70px;
+}
+
+.text_flex a {
+    text-decoration: none;
+    color: black;
+}
+
+.text_flex a:hover {
+    color: rgba(24, 24, 255, 0.637);
+}
+
+#art1 {
+    border-right: 1px solid rgba(148, 136, 136, 0.623);
+    padding-right: 140px;
+}
+
+#skill {
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+#skill h2 {
+    font-size: 2.2em;
+}
+
+#skill p {
+    margin-top: 20px;
+}
+
+#html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#css {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#xd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+#js {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+#progress{
+    height: 25px;
+    background-color: rgb(216, 210, 210);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#progress #progress-bar{
+   position: absolute;
+   height: 100%;
+   animation: progress-animation 3.5s infinite;
+}
+
+#progress1 {
+    height: 25px;
+    background-color: rgb(216, 210, 210);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#progress1 #progress-bar1 {
+   position: absolute;
+   height: 100%;
+   animation: animation 3.5s infinite;
+}
+
+#progress2 {
+    height: 25px;
+    background-color: rgb(216, 210, 210);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#progress2 #progress-bar2 {
+   position: absolute;
+   height: 100%;
+   animation: animation2 3.5s infinite;
+}
+
+#progress3 {
+    height: 25px;
+    background-color: rgb(216, 210, 210);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#progress3 #progress-bar3 {
+   position: absolute;
+   height: 100%;
+   animation: animation3 3.5s infinite;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; background-color: rgb(18, 116, 172);}
+    100% {width: 100%; background-color: rgb(6, 6, 197);}
+}
+
+@keyframes animation{
+    0% { width: 0%; background-color: rgb(18, 116, 172);}
+    100% {width: 100%; background-color: rgb(6, 6, 197);}
+}
+
+@keyframes animation2{
+    0% { width: 0%; background-color: rgb(18, 116, 172);}
+    100% {width: 100%; background-color: rgb(6, 6, 197); }
+}
+
+@keyframes animation3{
+    0% { width: 0%; background-color: rgb(252, 54, 54);}
+    50% {width: 50%; background-color: rgb(219, 5, 5);}
+}
