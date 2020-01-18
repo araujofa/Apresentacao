@@ -32,8 +32,13 @@ body {
     padding: 10px;
     margin-top: 30px !important; 
     margin: 0 auto;
-    background-color: rgb(241, 238, 238);
+    background-color: rgb(255, 241, 241);
     font-family: 'Noto Sans', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
 }
 
 #title {
@@ -108,12 +113,40 @@ body {
     padding: 10px;
 }
 
+#back {
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+}
+
 #skill h2 {
     font-size: 2.2em;
 }
 
+#back h2 {
+    font-size: 2.1em;
+}
+
+#outras h2 {
+    font-size: 2em;
+}
+
+#back p {
+    margin-top: 20px;
+}
+
 #skill p {
     margin-top: 20px;
+}
+
+#outras p {
+    margin-top: 20px;
+}
+
+#outras {
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
 }
 
 #html {
@@ -151,6 +184,50 @@ body {
     margin-top: 30px;
     align-content: center;
     justify-content: center;
+}
+
+#csharp {
+    display: flex;
+    margin-top: 30px !important;
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#data {
+    display: flex;
+    margin-top: 30px !important;
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#scrum {
+    display: flex;
+    margin-top: 30px !important;
+    margin: 0 auto;
+    max-width: 600px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#eng {
+    display: flex;
+    margin-top: 30px !important;
+    margin: 0 auto;
+    max-width: 600px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#scrum p {
+    font-size: 1.2em;
 }
 
 #progress{
@@ -213,6 +290,66 @@ body {
    animation: animation3 3.5s infinite;
 }
 
+#progress4 {
+    height: 25px;
+    background-color: rgb(216, 210, 210);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#progress4 #progress-bar4 {
+   position: absolute;
+   height: 100%;
+   animation: animation4 3.5s infinite;
+}
+
+#progress5 {
+    height: 25px;
+    background-color: rgb(216, 210, 210);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#progress5 #progress-bar5 {
+   position: absolute;
+   height: 100%;
+   animation: animation5 3.5s infinite;
+}
+
+#progress6 {
+    height: 25px;
+    background-color: rgb(216, 210, 210);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#progress6 #progress-bar6 {
+   position: absolute;
+   height: 100%;
+   animation: animation6 3.5s infinite;
+}
+
+#progress7 {
+    height: 25px;
+    background-color: rgb(216, 210, 210);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#progress7 #progress-bar7 {
+   position: absolute;
+   height: 100%;
+   animation: animation7 3.5s infinite;
+}
+
 @keyframes progress-animation{
     0% { width: 0%; background-color: rgb(18, 116, 172);}
     100% {width: 100%; background-color: rgb(6, 6, 197);}
@@ -229,6 +366,26 @@ body {
 }
 
 @keyframes animation3{
-    0% { width: 0%; background-color: rgb(252, 54, 54);}
-    50% {width: 50%; background-color: rgb(219, 5, 5);}
+    0% { width: 0%; background-color: rgb(18, 116, 172);}
+    50% {width: 50%; background-color: rgb(6, 6, 197);}
+}
+
+@keyframes animation4{
+    0% { width: 0%; background-color: rgb(123, 255, 0);}
+    70% {width: 70%; background-color: rgb(43, 240, 3);}
+}
+
+@keyframes animation5{
+    0% { width: 0%; background-color: rgb(123, 255, 0);}
+    30% {width: 30%; background-color: rgb(43, 240, 3);}
+}
+
+@keyframes animation6{
+    0% { width: 0%; background-color: rgb(255, 0, 0);}
+    80% {width: 80%; background-color: rgb(206, 13, 13);}
+}
+
+@keyframes animation7{
+    0% { width: 0%; background-color: rgb(255, 0, 0);}
+    80% {width: 80%; background-color: rgb(206, 13, 13);}
 }
