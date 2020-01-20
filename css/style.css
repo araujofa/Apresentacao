@@ -301,7 +301,91 @@ ol {
 
 
 
+@media (max-width: 240px){
+    body {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0 !important;
+    }
 
+    #text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #art1 {
+        border: none;
+        padding-right: 0;
+    }
+
+    #responsive_div {
+        display: none;
+    }
+
+    #responsive_p {
+        display: block;
+    }
+
+    #img_flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img_flex img {
+        height: 150px;
+    }
+
+    #img_flex2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #img_flex2 img {
+        height: 150px;
+    }
+
+    .role_img {
+        display: none;
+    }
+
+    ol {
+        font-size: 1.2em;
+    }
+
+    .text_flex_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_flex_2 p {
+        padding: 10px;
+    }
+
+    #proj {
+        max-width: 260px;
+    }
+
+    #proj h2 {
+        font-size: 2em;
+    }
+
+    #about h2 {
+        font-size: 2em;
+    }
+
+    .art-txt {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    #title {
+        max-width: 260px;
+    }
+
+    #title h1 {
+        font-size: 2.2em;
+    }
+}
 
 @media (max-width: 290px){
     body {
