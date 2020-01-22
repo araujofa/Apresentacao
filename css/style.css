@@ -103,6 +103,7 @@ footer {
 
 .text_flex a:hover {
     color: rgba(24, 24, 255, 0.637);
+    transition: 0.4s;
 }
 
 #art1 {
@@ -240,8 +241,8 @@ footer {
 }
 
 .js::before {
-    content: "10%";
-    width: 15%;
+    content: "20%";
+    width: 20%;
     background-color: red;
 }
 
@@ -297,7 +298,6 @@ ol {
 #responsive_p {
     display: none;
 }
-
 
 
 
