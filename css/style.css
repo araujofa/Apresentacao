@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: rgb(240, 228, 207);
+    background-color: rgb(241, 235, 225);
 }
 
 ::-webkit-scrollbar {
@@ -105,11 +105,7 @@ footer {
     color: rgba(24, 24, 255, 0.637);
     transition: 0.4s;
 }
-
-#art1 {
-    border-right: 1px solid rgba(148, 136, 136, 0.623);
-    padding-right: 140px;
-}
+    
 
 .para {
     margin-top: 10px;
@@ -226,12 +222,14 @@ footer {
     margin: 0 auto;
     background-color: #ccc;
     display: flex;
+    border-radius: 15px;
 }
 
 .progress-bar::before{
     content: "100%";
     width: 100%;
     background-color: red;
+    border-radius: 15px;
 }
 
 .axd::before {
